@@ -8,11 +8,11 @@ A:
 
     Remote Database
 
-    Enterprise Administration
+    [x]Enterprise Administration
 
-    Remote Alarms
+    [x]Remote Alarms
 
-    Remote Tag Providers
+    [x]Remote Tag Providers
 
 
 ------------------------------------------------------------------------------------------------
@@ -21,22 +21,16 @@ Using remote alarms, you can install the Alarm Notification module on one gatewa
 A:
 
     True
-    False
-
-Review video for help with answer
-Incorrect
-
+    [x]False
 
 ------------------------------------------------------------------------------------------------
 Q3:
 Tags in a Remote Tag Provider are stored and executed on the remote Gateway.
 A:
 
-    True
+    [x]True
     False
 
-Review video for help with answer
-Incorrect
 ------------------------------------------------------------------------------------------------
 Q4:
 Incoming Gateway Network Connections must be approved by default.
@@ -45,7 +39,6 @@ A:
     True
     [x]False
 
-Correct
 ------------------------------------------------------------------------------------------------
 Q5:
 Remote Alarms allow you to use the Alarm Notification Pipelines of other gateways.
@@ -54,8 +47,6 @@ A:
     [x]True
     False
 
-Correct
-
 ------------------------------------------------------------------------------------------------
 Q6:
 What is the default SSL port for Gateway Network Connections?
@@ -63,12 +54,65 @@ A:
 
     12334
 
-    8043 x
+    8043
 
     8088
 
-    8060
+    [x]8060
 
     0404
 	
+------------------------------------------------------------------------------------------------
+
+A Remote Tag Provider does not require any Gateway Network Connections.
+
+    True
+    [x]False
+
+------------------------------------------------------------------------------------------------
+
+Setting up a Remote History Provider requires the Gateway to have a direct database connection.
+
+    True
+    [x]False
+
+------------------------------------------------------------------------------------------------
+
+When configuring a Security Zone, which of the following can be used in the IP Address Identifier?
+Select all answers that apply
+
+    [x]Numeric Range: e.g., 0-50
+    [x]Wildcard character: e.g., *
+    Logical Not: e.g., !
+    All of the Above
+    None of the Above
+
+------------------------------------------------------------------------------------------------
+
+Remote Alarms allow you to use the alarm notification profiles of another gateway.
+
+    [x]True
+    False
+
+------------------------------------------------------------------------------------------------
+
+When an incoming connection fits the criteria for multiple Security Zones, the highest ranking policy will be used.
+
+    [x]True
+    False
+
+------------------------------------------------------------------------------------------------
+
+Remote Alarms allow you to use the Alarm Notification Pipelines of other gateways.
+
+    [x]True
+    False
+
+------------------------------------------------------------------------------------------------
+
+New tags can't be added to the Remote Tag Provider.
+
+    True
+    [x]False
+
 ------------------------------------------------------------------------------------------------
